@@ -1,0 +1,55 @@
+Know your customer or know your client (KYC)[1][2] laws, regulations and guidelines in financial services require regulated businesses and professionals to verify the identity, suitability, and risks involved with maintaining a business relationship with a customer. These procedures fit within the broader scope of anti-money laundering (AML) and counter terrorism financing (CTF) regulations. 
+
+
+KYC requirements have evolved from simple identity verification into comprehensive risk management frameworks designed to combat illicit financial activity. These procedures enable institutions to further understand their clients' financial behavior, identity, and transactions, and aids in assessing exposure to money laundering and an extensive range of underlying crime, including bribery, corruption, fraud, extortion, human trafficking and drug smuggling.[3] Information collected by regulated entities as a result of complying with KYC obligations is used to aid law enforcement and national security. In addition to verifying personal or corporate identities, modern KYC standards often include customer and enhanced due-diligence for higher risk clients, ensuring compliance with global inter-governmental standards set out by the Financial Action Task Force since 1989.[4]
+
+
+KYC processes are also employed by companies of all sizes for the purpose of ensuring their proposed customers, agents, consultants, or distributors are anti-bribery compliant and are actually who they claim to be. Banks, insurers, export creditors, and other financial institutions are increasingly required to make sure that customers provide detailed due-diligence information. Initially, these regulations were imposed only on the financial institutions, but now the non-financial industry, fintech, virtual assets dealers, and even non-profit organizations are included in regulations in many countries.
+
+
+In the United States, the Financial Industry Regulatory Authority (FINRA) Rule 2090 states that financial institutions must use reasonable diligence to identify and retain the identity of every customer and every person acting on behalf of those customers.[5] In enforcing this rule, these organizations are expected to collect all information essential to knowing their customers. Information deemed necessary for enforcing know your customer requirements include the customer identification program (CIP), customer due diligence (CDD), and enhanced due diligence (EDD).[6]
+
+
+Section 326 of the USA Patriot Act requires banks and other financial institutions to have a Customer Identification Program (CIP). This act requires financial institutions to at minimum, verify the identity of anyone looking to open an account, maintain records of this information, and verify if this person is on the list of known or suspected terrorists that financial institutions are provided by the U.S government. Financial institutions must collect four pieces of identifying information about its customers including:
+
+
+The Bank Secrecy Act, the common name for the Currency and Foreign Transaction Reporting Act of 1970 and its amendments and other statutes, established the customer due diligence (CDD) rule as part of an effort to improve financial transparency and deter money laundering. The CDD rule enhances CDD requirements for "U.S. banks, mutual funds, brokers or dealers in securities, futures commission merchants, and introducing brokers in commodities.[7]" The CDD rule requires that financial institutions identify and verify the identity of customers associated with open accounts. The CDD rule has four core requirements:[7]
+
+
+Beneficial owner information is required for any individual who owns 25 percent or more of a legal entity and an individual who controls the legal entity.[7]
+
+
+Enhanced due diligence[8] is required when initial identity checks have been completed and high-risk factors have been identified for an individual or a business. These measures may be needed based upon factors such as the jurisdiction the customer is based in, the products they are using, or the nature of the customer. When these requirements have been met "enhanced" or additional due diligence above and beyond CDD is conducted which identifies the following information:[8]
+
+
+Know your customer's customer (KYCC) is a process that identifies a customer's customer activities and nature. This includes the identification of the customer's customers and assessing the risk levels associated with their activities.[9]
+
+
+KYCC is a derivative of the standard KYC process that arose because of the growing risk of fraud obscured by second-tier business relationships (e.g. a customer's supplier).[9]
+
+
+KYCC is not just an issue of legal compliance, you need to know the beneficiaries of your client in order to protect your business from various risks, which can include the infiltration of illegal funds into your organization. By extending the steps of know your customer to all of your client's various connections, proper due diligence can be exercised.[citation needed]
+
+
+Know your business (KYB) is an extension of KYC laws implemented to reduce money laundering. KYB is a set of practices to verify a business. It includes verification of registration credentials, location, the UBOs (ultimate beneficial owners) of that business, etc. Also, the business is screened against blacklists and grey lists to check if it was involved in any sort of criminal activity such as money laundering, terrorist financing, corruption, etc. KYB is significant in identifying fake business entities and shell companies. It is crucial for efficient KYC and AML compliance.
+
+
+According to the European Union's 5th AML directive,[10] KYB is required for the following AML-regulated entities:
+
+
+Know your business (KYB) protocols typically include verifying business activities to determine whether they align with a company's risk tolerance. High-risk sectors may include gambling facilities, money services businesses, and adult entertainment industries, among others. KYB service providers such as LexisNexis and Enigma Technologies offer data and ongoing monitoring solutions that enable verification during both initial onboarding and throughout the entire business relationship lifecycle.
+
+
+Electronic know your customer (eKYC) involves the use of internet or digital means of identity verification.[11] This may involve checking information provided is valid by using systems to validate ID and proof of address documents or by checking information against government databases such as the official passport database of a country.[12]
+
+
+In response to the digitalization of financial services, especially by neobanks and fintech platforms, the adoption of eKYC procedures has accelerated globally. eKYC systems often combine ID document verification, biometric authentication (e.g., facial recognition and liveness checks), and real-time risk monitoring to authenticate users. Some countries have implemented national guidelines or regulations around eKYC. For example, the Qatar Central Bank introduced a formal eKYC framework in 2023 aligned with its national fintech strategy, allowing digital onboarding of non-resident users with regulatory approval.[13]
+
+
+eKYC is also being explored in conjunction with digital identity wallets and verifiable credentials as part of broader digital identity initiatives in jurisdictions like the European Union under the eIDAS framework.[14]
+
+
+Different countries implement Know Your Customer (KYC) and Anti-Money Laundering (AML) regulations through their respective financial intelligence units or regulatory authorities, aligning with international standards set by the Financial Action Task Force (FATF)
+
+
+As of March 2026, a parliamentary panel in India has recommended making Know Your Customer (KYC) verification mandatory for social media users to combat fake accounts, online fraud, and malicious content. This initiative aims to increase accountability for users on platforms like Instagram, Facebook, and YouTube

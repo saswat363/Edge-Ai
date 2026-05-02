@@ -1,0 +1,101 @@
+Section,Question,Answer
+Basic Accounts,What is a Savings Account?,An account designed for individuals to park their money while earning a small amount of interest.
+Basic Accounts,What is a Current Account?,An account meant for businesses with no limit on the number of daily transactions; it usually offers no interest.
+Basic Accounts,What is a Fixed Deposit (FD)?,An investment where you lock a sum of money for a specific period at a higher interest rate than a savings account.
+Basic Accounts,What does KYC stand for?,Know Your Customer. It's a process to verify the identity and address of customers.
+Basic Accounts,What is a Check/Cheque?,A written document that orders a bank to pay a specific amount of money from a person's account to another person.
+Basic Accounts,What is a Bounced Cheque?,A cheque that the bank refuses to pay because there isn't enough money in the account.
+Basic Accounts,What is a Demand Draft (DD)?,A pre-paid instrument issued by a bank to make a payment to a third party; it is more secure than a cheque.
+Basic Accounts,What is an Overdraft?,"A facility that allows an account holder to withdraw more money than they actually have in their account, up to a certain limit."
+Basic Accounts,What is a Joint Account?,An account opened in the name of two or more individuals.
+Basic Accounts,What is a Nominee?,A person designated by the account holder to receive the funds in the account in the event of the holder's death.
+Basic Accounts,What is a Recurring Deposit (RD)?,A savings scheme where a fixed amount is deposited every month for a fixed tenure to earn interest.
+Basic Accounts,What is a Zero Balance Account?,A bank account that does not require the account holder to maintain a minimum balance.
+Basic Accounts,What is a Minor Account?,"A bank account opened for a person below 18 years of age, usually operated by a guardian."
+Basic Accounts,What is a Senior Citizen Account?,A special savings account for individuals above 60 years offering higher interest rates and extra benefits.
+Basic Accounts,What is an NRI Account?,A bank account opened by a Non-Resident Indian to manage earnings in India or abroad.
+Basic Accounts,What is account number?,A unique number assigned to each bank account used to identify the account holder for transactions.
+Basic Accounts,What is a bank passbook?,"A booklet given by the bank that records all deposits, withdrawals and the current balance of the account."
+Basic Accounts,What is a cheque book?,A booklet of pre-printed cheques issued by a bank to an account holder for making payments.
+Basic Accounts,What is interest in a savings account?,"A small percentage of money the bank pays you for keeping your money in a savings account, usually 2-4% per annum."
+Basic Accounts,What is a dormant account?,An account with no customer-initiated transactions for over 2 years; it gets frozen for security reasons.
+Digital Banking,What is a Debit Card?,A card linked directly to your bank account; money is deducted instantly when you spend.
+Digital Banking,What is a Credit Card?,"A card that allows you to borrow money from the bank up to a limit to make purchases, which you pay back later."
+Digital Banking,What is a PIN?,Personal Identification Number; a secret code used to authorize card transactions.
+Digital Banking,What is an ATM?,Automated Teller Machine; a machine that lets you withdraw cash and check balances without a human teller.
+Digital Banking,What is Mobile Banking?,Using a smartphone app provided by the bank to perform financial transactions.
+Digital Banking,What is Net Banking?,Accessing banking services through the bank's official website using a browser.
+Digital Banking,What is an OTP?,One-Time Password; a temporary code sent to your phone for secure online transactions.
+Digital Banking,What is NEFT?,National Electronic Funds Transfer; a way to send money between banks in batches.
+Digital Banking,What is RTGS?,"Real-Time Gross Settlement; used for high-value, instant money transfers above 2 lakh rupees."
+Digital Banking,What is IMPS?,Immediate Payment Service; an instant 24/7 interbank electronic fund transfer service.
+Digital Banking,What is UPI?,Unified Payments Interface; a real-time payment system that allows instant money transfer using a mobile phone.
+Digital Banking,What is a Virtual Card?,A digital version of a debit or credit card used for online transactions without a physical card.
+Digital Banking,What is two-factor authentication?,A security process where a user provides two different forms of identification before accessing an account.
+Digital Banking,What is a transaction limit?,The maximum amount of money you can transfer or withdraw in a single transaction or in a day.
+Digital Banking,What is internet banking fraud?,Unauthorized access to a person's bank account through the internet to steal money or information.
+Digital Banking,What is a QR code payment?,A method of payment where you scan a QR code using a mobile app to transfer money instantly.
+Digital Banking,What is a digital wallet?,An electronic device or app that stores payment information and allows you to make transactions digitally.
+Digital Banking,What is BHIM app?,Bharat Interface for Money; a UPI-based mobile payment app developed by NPCI for easy fund transfers.
+Digital Banking,What is a mini statement?,"A short summary showing the last 5 to 10 transactions made in your bank account, available at ATMs."
+Digital Banking,What is contactless payment?,A payment method where you tap your card or phone on a reader to make a payment without entering a PIN for small amounts.
+Loans & Interest,What is a Loan?,Money borrowed from a bank that must be paid back with interest over a period of time.
+Loans & Interest,What is a Mortgage?,"A loan specifically used to purchase a home or real estate, where the property serves as collateral."
+Loans & Interest,What is Collateral?,An asset like a house or gold that a borrower offers to a lender to secure a loan.
+Loans & Interest,What is an EMI?,Equated Monthly Installment; the fixed amount paid by a borrower to a lender every month.
+Loans & Interest,What is the Repo Rate?,The rate at which the central bank like RBI lends money to commercial banks.
+Loans & Interest,What is a Credit Score?,A number that represents a person's creditworthiness based on their borrowing history.
+Loans & Interest,What is Simple Interest?,Interest calculated only on the principal amount borrowed or deposited.
+Loans & Interest,What is Compound Interest?,Interest calculated on the principal plus the interest that has already accumulated.
+Loans & Interest,What is a Personal Loan?,An unsecured loan used for various personal expenses like travel or weddings.
+Loans & Interest,What is a Default?,The failure to repay a loan or meet the legal obligations of a loan agreement.
+Loans & Interest,What is a Home Loan?,"A loan taken from a bank to buy or construct a house, repaid through EMIs over a long period."
+Loans & Interest,What is a Car Loan?,"A loan taken to purchase a vehicle, where the vehicle itself acts as collateral."
+Loans & Interest,What is a Gold Loan?,A loan where gold jewelry or coins are pledged as collateral to the bank in exchange for money.
+Loans & Interest,What is an Education Loan?,"A loan provided to students to fund higher education, repaid after the course is completed."
+Loans & Interest,What is a loan tenure?,The total duration or time period within which a borrower must repay the entire loan amount with interest.
+Loans & Interest,What is a prepayment penalty?,A fee charged by some banks when a borrower repays a loan before the agreed end date.
+Loans & Interest,What is a loan sanction letter?,An official letter from the bank confirming that a loan has been approved along with its terms and conditions.
+Loans & Interest,What is the base rate?,The minimum interest rate set by RBI below which banks cannot lend money to customers.
+Loans & Interest,What is a co-applicant?,A second person who applies for a loan along with the primary applicant and shares repayment responsibility.
+Loans & Interest,What is loan foreclosure?,The process of closing a loan account by repaying the entire outstanding amount before the loan tenure ends.
+Operations & Security,What is a Bank Statement?,A monthly record of all transactions deposits and withdrawals in an account.
+Operations & Security,What is a Passbook?,A small book issued to savings account holders to record all transactions manually or via machine.
+Operations & Security,What is a Ledger Balance?,The total amount of money in an account at the start of the business day.
+Operations & Security,What is an Available Balance?,The amount of money in your account that you can actually spend right now.
+Operations & Security,What is Phishing?,A fraudulent attempt to steal personal information like passwords by pretending to be a bank via email or SMS.
+Operations & Security,What is a Bank Vault?,"A secure space where money, valuables, and records are stored inside a bank."
+Operations & Security,What is a Locker Facility?,A safe deposit box rented by a customer to store jewelry or important documents inside the bank.
+Operations & Security,What is a Bank Teller?,"An employee at the bank counter who handles cash deposits, withdrawals, and other basic tasks."
+Operations & Security,What is a Branch Manager?,The person in charge of the operations and employees of a specific bank location.
+Operations & Security,What is KYC verification?,"The process banks use to verify the identity of customers using documents like Aadhaar, PAN card, or passport."
+Operations & Security,What is a suspicious transaction?,Any banking transaction that appears unusual or inconsistent with normal customer activity and may indicate fraud.
+Operations & Security,What is account freezing?,"A temporary restriction placed on a bank account preventing withdrawals, usually due to suspicious activity or court orders."
+Operations & Security,What is a stop payment request?,An instruction given to a bank to cancel a cheque that has been issued but not yet processed.
+Operations & Security,What is a cash deposit machine (CDM)?,A self-service machine that allows customers to deposit cash into their accounts without visiting a teller.
+Operations & Security,What is a SWIFT code?,"A unique code that identifies a specific bank branch internationally, used for cross-border money transfers."
+Operations & Security,What is AML?,Anti-Money Laundering; a set of laws and procedures to prevent criminals from disguising illegally obtained money.
+Operations & Security,What is a chargeback?,A reversal of a credit card transaction initiated by the card holder when a purchase is disputed.
+Operations & Security,What is a bank audit?,An official inspection of a bank's financial records and operations to ensure accuracy and compliance with regulations.
+Operations & Security,What is two-factor authentication in banking?,A security feature requiring two forms of verification such as password and OTP before allowing account access.
+Operations & Security,What is a bank reconciliation?,The process of matching a company's internal financial records with its bank statement to find any differences.
+General Finance,What is Inflation?,"The rate at which the general level of prices for goods and services is rising, reducing purchasing power."
+General Finance,What is a Central Bank?,"The main institution that manages a country's currency and monetary policy, like RBI in India."
+General Finance,What is Liquidity?,The ease with which an asset can be converted into cash without affecting its market price.
+General Finance,What is a Bad Debt?,A loan that is unlikely to be repaid by the borrower.
+General Finance,What is an NPA?,Non-Performing Asset; a loan where the interest or principal has been overdue for 90 days.
+General Finance,What is Direct Deposit?,An electronic transfer of a payment like salary directly from the payer's account to the recipient's account.
+General Finance,What is a Withdrawal Slip?,A form used in a bank branch to take money out of an account.
+General Finance,What is a Deposit Slip?,A form used to put cash or cheques into a bank account.
+General Finance,What is the IFSC Code?,Indian Financial System Code; a unique alphanumeric code used to identify a specific bank branch for electronic transfers.
+General Finance,What is a MICR Code?,Magnetic Ink Character Recognition; a code printed on cheques used for processing and clearance.
+General Finance,What is GDP?,Gross Domestic Product; the total monetary value of all goods and services produced in a country in a year.
+General Finance,What is fiscal policy?,Government decisions about taxation and spending to influence the economy.
+General Finance,What is monetary policy?,Actions taken by the central bank to control money supply and interest rates to manage the economy.
+General Finance,What is a budget deficit?,When a government spends more money than it earns through taxes and other revenues.
+General Finance,What is foreign exchange?,"The conversion of one country's currency into another, used for international trade and travel."
+General Finance,What is a stock market?,A marketplace where buyers and sellers trade shares of publicly listed companies.
+General Finance,What is a mutual fund?,"A pool of money collected from many investors and invested in stocks, bonds, or other securities by a fund manager."
+General Finance,What is a bond?,A fixed income investment where an investor lends money to a borrower like a company or government for a fixed period at a fixed interest rate.
+General Finance,What is diversification?,A risk management strategy of spreading investments across different assets to reduce the impact of any single loss.
+General Finance,What is net banking security?,"Measures like encryption, OTP, and firewalls used by banks to protect online banking from unauthorized access."
