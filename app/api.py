@@ -48,42 +48,27 @@ async def chat(query: str = Form(...), history: str = Form(default="[]")):
     except json.JSONDecodeError:
         parsed_history = []
         
-    async def event_generator():
-        try:
-            # Incorporate history into the agent input
-            history_context = ""
-            if parsed_history:
-                history_context = "Chat History:\n"
-                for msg in parsed_history[-3:]:
-                    role = msg.get("role", "User").capitalize()
-                    history_context += f"{role}: {msg.get('content', '')}\n"
-                    
-            full_input = f"{history_context}\nQuestion: {query}" if history_context else query
-            
-            # Stream events using LangChain's astream_events
-            async for event in banking_agent.astream_events({"input": full_input}, version="v1"):
-                kind = event["event"]
+    try:
+        # Incorporate history into the agent input
+        history_context = ""
+        if parsed_history:
+            history_context = "Chat History:\n"
+            for msg in parsed_history[-3:]:
+                role = msg.get("role", "User").capitalize()
+                history_context += f"{role}: {msg.get('content', '')}\n"
                 
-                # Catch LLM token generation
-                if kind == "on_llm_stream":
-                    chunk = event["data"]["chunk"]
-                    if chunk:
-                        # Yield in Server-Sent Events (SSE) format
-                        yield f"data: {json.dumps({'token': chunk})}\n\n"
-                        
-                # Notify the UI when a tool is being used
-                elif kind == "on_tool_start":
-                    tool_name = event["name"]
-                    system_msg = f"\n*[Agent is using: {tool_name}...]*\n"
-                    yield f"data: {json.dumps({'token': system_msg})}\n\n"
+        full_input = f"{history_context}\nQuestion: {query}" if history_context else query
+        
+        # Invoke the agent (non-streaming)
+        response = await banking_agent.ainvoke({"input": full_input})
+        
+        return {
+            "answer": response["output"],
+            "sources": [] # Standardizing for the frontend
+        }
             
-            # Signal completion
-            yield "data: [DONE]\n\n"
-            
-        except Exception as e:
-            yield f"data: {json.dumps({'error': str(e)})}\n\n"
-
-    return StreamingResponse(event_generator(), media_type="text/event-stream")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/upload")
 async def upload_document(background_tasks: BackgroundTasks, file: UploadFile = File(...)):

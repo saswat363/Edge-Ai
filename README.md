@@ -83,12 +83,13 @@ response = llm.invoke(prompt)
 3. Generates answer.
 4. Displays sources.
 
-## Current Progress (25%)
+## Current Progress (50%)
 - [x] Data ingestion completed.
 - [x] Vector database created.
 - [x] RAG pipeline implemented.
-- [x] Chatbot UI developed.
-- [x] Local LLM integrated.
+- [x] Chatbot UI developed (Next.js + Tailwind).
+- [x] FastAPI Backend integrated.
+- [x] Local LLM integrated (Ollama).
 
 ## Future Scope
 - Improve answer accuracy.
@@ -102,6 +103,19 @@ response = llm.invoke(prompt)
 - Uses local LLM (Ollama).
 - Streamlit/React interface.
 - Real-time query handling.
+
+## Quick Start
+
+### 1. Start the Backend API
+```powershell
+.\venv\Scripts\python.exe app\api.py
+```
+
+### 2. Start the Frontend UI
+```powershell
+cd frontend
+npm run dev
+```
 
 ## Use Cases
 - Internal banking assistant.
