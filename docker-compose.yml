@@ -6,13 +6,12 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./bank_data.db:/app/bank_data.db
       - ./vector_db:/app/vector_db
       - ./data:/app/data
     environment:
       - DATA_PATH=/app/data
       - VECTOR_PATH=/app/vector_db
-      - DB_PATH=/app/bank_data.db
+      - DB_PATH=/app/data/bank_data.db
       - LLM_MODEL=mistral
       - OLLAMA_BASE_URL=http://ollama:11434
     depends_on:
