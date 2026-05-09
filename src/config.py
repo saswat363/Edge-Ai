@@ -12,3 +12,4 @@ LLM_TEMPERATURE = 0.2
 RERANKER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 BM25_PATH = os.path.join(VECTOR_PATH, "bm25_retriever.pkl")
 DB_PATH = os.environ.get("DB_PATH", os.path.join(BASE_DIR, "bank_data.db"))
+OLLAMA_BASE_URL = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434")
