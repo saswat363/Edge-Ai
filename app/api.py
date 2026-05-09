@@ -9,7 +9,7 @@ import json
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from src.config import DATA_PATH
+from src.config import DATA_PATH, DB_PATH
 from ingest import process_documents
 from src.agent import create_banking_agent
 from src.llm_model import load_llm

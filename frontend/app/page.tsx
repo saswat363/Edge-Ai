@@ -138,6 +138,7 @@ const sampleMessages: Message[] = [
 ]
 
 export default function Home() {
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
   const [messages, setMessages] = useState<Message[]>(sampleMessages)
   const [showWelcome, setShowWelcome] = useState(false)
@@ -164,7 +165,7 @@ export default function Home() {
       formData.append("username", username)
       formData.append("password", password)
       
-      const response = await fetch("http://localhost:8000/login", {
+      const response = await fetch(`${API_URL}/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
@@ -244,7 +245,7 @@ export default function Home() {
       }))
       formData.append("history", JSON.stringify(history))
 
-      const response = await fetch("http://localhost:8000/chat", {
+      const response = await fetch(`${API_URL}/chat`, {
         method: "POST",
         body: formData,
       })
@@ -312,7 +313,7 @@ export default function Home() {
       const formData = new FormData()
       formData.append("file", file)
 
-      const response = await fetch("http://localhost:8000/upload", {
+      const response = await fetch(`${API_URL}/upload`, {
         method: "POST",
         body: formData,
       })

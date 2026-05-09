@@ -5,12 +5,13 @@ from langchain_core.tools import Tool
 from langchain_core.prompts import PromptTemplate
 from src.llm_model import load_llm
 from src.rag_pipeline import create_rag_chain
+from src.config import DB_PATH
 
 def create_banking_agent():
     llm = load_llm()
     
     # Tool 1: SQL Agent
-    db = SQLDatabase.from_uri("sqlite:///bank_data.db")
+    db = SQLDatabase.from_uri(f"sqlite:///{DB_PATH}")
     sql_agent_executor = create_sql_agent(llm, db=db, agent_type="zero-shot-react-description", verbose=True)
     
     sql_tool = Tool(
