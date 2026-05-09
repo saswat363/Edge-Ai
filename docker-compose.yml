@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./bank_data.db:/app/bank_data.db
+      - ./vector_db:/app/vector_db
+      - ./data:/app/data
+    environment:
+      - DATA_PATH=/app/data
+      - VECTOR_PATH=/app/vector_db
+      - DB_PATH=/app/bank_data.db
+      - LLM_MODEL=mistral
+    depends_on:
+      - ollama
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+
+volumes:
+  ollama_data:
